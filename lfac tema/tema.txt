@@ -1,0 +1,17 @@
+var int a -> 3;
+var int b -> 4;
+var int l;
+
+main
+begin
+  b -> 3;
+  if ( a equal b) then
+  {
+    print (a);
+  };
+  while ( a ge 0 ) do
+  {
+    b -> b + 1;
+    a -> a - 1;
+  };
+end
